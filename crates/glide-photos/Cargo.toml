@@ -31,8 +31,8 @@ iced = { version = "0.14.0", default-features = false, features = [
     "advanced",
     "canvas",
 ] }
-glide-config = { path = "../glide-config" }
-glide-sdk = { path = "../glide-sdk" }
+glide-config.workspace = true
+glide-sdk.workspace = true
 serde.workspace = true
 toml.workspace = true
 tracing.workspace = true
